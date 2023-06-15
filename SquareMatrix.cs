@@ -8,7 +8,7 @@ namespace Lab3
 {
     public class SquareMatrix
     {
-        public int Size;
+        public int Size
         public int[,] Matrix;
         Random ValRandom = new Random(Guid.NewGuid().GetHashCode());
         public SquareMatrix(int Size)
